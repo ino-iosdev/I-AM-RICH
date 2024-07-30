@@ -13,9 +13,6 @@
 		919BE17F2BF2A4AA00C70993 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 919BE17E2BF2A4AA00C70993 /* Base */; };
 		919BE1812BF2A4AC00C70993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919BE1802BF2A4AC00C70993 /* Assets.xcassets */; };
 		919BE1842BF2A4AC00C70993 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 919BE1832BF2A4AC00C70993 /* Base */; };
-		919BE18F2BF2A4AC00C70993 /* I_am_richTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BE18E2BF2A4AC00C70993 /* I_am_richTests.swift */; };
-		919BE1992BF2A4AC00C70993 /* I_am_richUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BE1982BF2A4AC00C70993 /* I_am_richUITests.swift */; };
-		919BE19B2BF2A4AC00C70993 /* I_am_richUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BE19A2BF2A4AC00C70993 /* I_am_richUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		919BE1832BF2A4AC00C70993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		919BE1852BF2A4AC00C70993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		919BE18A2BF2A4AC00C70993 /* I am richTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I am richTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		919BE18E2BF2A4AC00C70993 /* I_am_richTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_richTests.swift; sourceTree = "<group>"; };
 		919BE1942BF2A4AC00C70993 /* I am richUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I am richUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		919BE1982BF2A4AC00C70993 /* I_am_richUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_richUITests.swift; sourceTree = "<group>"; };
-		919BE19A2BF2A4AC00C70993 /* I_am_richUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_richUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				919BE1762BF2A4AA00C70993 /* I am rich */,
-				919BE18D2BF2A4AC00C70993 /* I am richTests */,
-				919BE1972BF2A4AC00C70993 /* I am richUITests */,
 				919BE1752BF2A4AA00C70993 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				919BE1852BF2A4AC00C70993 /* Info.plist */,
 			);
 			path = "I am rich";
-			sourceTree = "<group>";
-		};
-		919BE18D2BF2A4AC00C70993 /* I am richTests */ = {
-			isa = PBXGroup;
-			children = (
-				919BE18E2BF2A4AC00C70993 /* I_am_richTests.swift */,
-			);
-			path = "I am richTests";
-			sourceTree = "<group>";
-		};
-		919BE1972BF2A4AC00C70993 /* I am richUITests */ = {
-			isa = PBXGroup;
-			children = (
-				919BE1982BF2A4AC00C70993 /* I_am_richUITests.swift */,
-				919BE19A2BF2A4AC00C70993 /* I_am_richUITestsLaunchTests.swift */,
-			);
-			path = "I am richUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919BE18F2BF2A4AC00C70993 /* I_am_richTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919BE19B2BF2A4AC00C70993 /* I_am_richUITestsLaunchTests.swift in Sources */,
-				919BE1992BF2A4AC00C70993 /* I_am_richUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
